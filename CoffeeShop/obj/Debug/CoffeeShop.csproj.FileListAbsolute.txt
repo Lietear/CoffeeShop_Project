@@ -1,0 +1,17 @@
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.csprojAssemblyReference.cache
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.Login.resources
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.Properties.Resources.resources
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.csproj.GenerateResource.cache
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.csproj.CoreCompileInputs.cache
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\CoffeeShop.exe.config
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\CoffeeShop.exe
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\CoffeeShop.pdb
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\MySql.Data.dll
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\Google.Protobuf.dll
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\Renci.SshNet.dll
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\bin\Debug\MySql.Data.xml
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.csproj.CopyComplete
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.exe
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.pdb
