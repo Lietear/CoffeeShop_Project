@@ -19,7 +19,7 @@ namespace CoffeeShop.GUI
         private String StaffLevel;
         // ประกาศตัวแปรไว้สำหรับเก็บค่า
 
-        private string conn = "server = localhost; user id = root; password = 1234567890; persistsecurityinfo=True;database=coffee;allowuservariables=True";
+        private string conDB = "server = localhost; user id = root; password = 1234567890; persistsecurityinfo=True;database=coffee;allowuservariables=True";
         //ประกาศตัวแปรเพื่อ connect ไว้สำหรับเชื่อมต่อกับ database
         int i;
         public Login()
@@ -29,8 +29,8 @@ namespace CoffeeShop.GUI
 
         private void getTheName(String StaffID) // ดึงข้อมูล StaffCode,StaffName,Gender,StaffLevel จาก Database ด้วย userTextBox
         {
-            MySqlConnection connection = new MySqlConnection(conn);
-            connection.ConnectionString = conn;
+            MySqlConnection connection = new MySqlConnection(conDB);
+            connection.ConnectionString = conDB;
             String query = "SELECT StaffCode,StaffName,Gender,StaffLevel FROM staffs WHERE StaffID = '" + userTextBox.Text + "'";
             try
             {
@@ -60,7 +60,7 @@ namespace CoffeeShop.GUI
         private void connect(String username, String password) //เชื่อมต่อกับฐานข้อมูลเพื่อตราวสอบว่าพบข้อมูลใน Database หรือไม่
         {
             i = 0;
-            MySqlConnection connection = new MySqlConnection(conn);
+            MySqlConnection connection = new MySqlConnection(conDB);
             connection.Open();
             MySqlCommand cmd = connection.CreateCommand();
             cmd.CommandType = CommandType.Text;
@@ -85,7 +85,29 @@ namespace CoffeeShop.GUI
                 string Gen = this.Gender.Trim();
                 string Level = this.StaffLevel.Trim();
 
-                //ทำหน้า Mainmenu ของ Staffs แต่ละระดับ **ยังคิดไม่ออก
+                if (Level == "Admin") //เข้าหน้า main_menu สำหรับ Admin (ยังไม่สร้าง)
+                {
+                    main_admin main_Admin = new main_admin(Code,Name,Gen,Level);
+                    main_Admin.Show();
+                }
+                
+                else if(Level == "Maneger")//เข้าหน้า main_menu สำหรับ Maneger (ยังไม่สร้าง)
+                {
+                    main_manager main_Manager = new main_manager(Code, Name, Gen, Level);
+                    main_Manager.Show();
+                }
+
+                else if (Level == "Staff") //เข้าหน้า main_menu สำหรับ Staff (ยังไม่สร้าง)
+                {
+                    main_staff main_Staff = new main_staff(Code, Name, Gen, Level);
+                    main_Staff.Show();
+                }
+
+                else //ประกาศข้อความแสดงความผิดพลาดเมื่อพบข้อมูลแต่ Level ไม่อยู่ในฐานข้อมูล
+                {
+                    MessageBox.Show("Data error,Please contact the administrator");
+                    
+                }
             }
 
             connection.Close();
