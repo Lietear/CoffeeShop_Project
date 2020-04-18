@@ -95,5 +95,30 @@ namespace CoffeeShop.GUI
         {
             this.connect(userTextBox.Text, passTextBox.Text); //เรียกใช้ method connect เมื่อกดปุ่ม
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void passTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
