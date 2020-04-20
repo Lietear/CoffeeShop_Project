@@ -64,7 +64,7 @@
             this.select.FormattingEnabled = true;
             this.select.Items.AddRange(new object[] {
             "update",
-            "drop"});
+            "delete"});
             this.select.Location = new System.Drawing.Point(130, 30);
             this.select.Name = "select";
             this.select.Size = new System.Drawing.Size(121, 24);
@@ -149,7 +149,7 @@
             this.page2.Controls.Add(this.pprice);
             this.page2.Controls.Add(this.pdetail);
             this.page2.Controls.Add(this.bt1);
-            this.page2.Location = new System.Drawing.Point(164, 12);
+            this.page2.Location = new System.Drawing.Point(180, 12);
             this.page2.Name = "page2";
             this.page2.Size = new System.Drawing.Size(400, 407);
             this.page2.TabIndex = 16;
@@ -159,7 +159,7 @@
             this.page1.Controls.Add(this.label5);
             this.page1.Controls.Add(this.add);
             this.page1.Controls.Add(this.dataGridView1);
-            this.page1.Location = new System.Drawing.Point(25, 31);
+            this.page1.Location = new System.Drawing.Point(29, 31);
             this.page1.Name = "page1";
             this.page1.Size = new System.Drawing.Size(717, 407);
             this.page1.TabIndex = 17;
