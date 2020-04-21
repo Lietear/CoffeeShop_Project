@@ -30,14 +30,10 @@ namespace CoffeeShop.GUI
 
         private void bt1_Click(object sender, EventArgs e)
         {
-            int productnum = int.Parse(pnum.Text);
-            string productname = pname.Text;
-            float price = float.Parse(pprice.Text);
-            string productdetail = pdetail.Text;
             string Query = "";
             if (status == 0)
             {
-                Query = "INSERT INTO products(ProductName,Price,ProductDetail) VALUES('" + productname + "'," + price + ",'" + productdetail + "')";
+                Query = "INSERT INTO products(ProductName,Price,ProductDetail) VALUES('" + pname.Text + "'," + pprice.Text + ",'" + pdetail.Text + "')";
             }
             if (status == 1)
             {
@@ -77,6 +73,9 @@ namespace CoffeeShop.GUI
             page2.Show();
             pnum.Enabled = false;
             select.Enabled = false;
+            pname.Enabled = true;
+            pprice.Enabled = true;
+            pdetail.Enabled = true;
             select.Text = "";
             pnum.Text = "00";
             pname.Text = "Product Name";
