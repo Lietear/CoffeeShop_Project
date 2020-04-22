@@ -41,11 +41,20 @@ namespace CoffeeShop.GUI
             InitializeComponent();
             this.getName.Text = Name;
             this.getID.Text = Code;
+            this.Code = Code;
+            this.Name = Name;
+            this.Gen = Gen;
+            this.Level = Level;
         }
-
         public main_admin()
         {
             InitializeComponent();
         }
+        private void order_button_Click(object sender, EventArgs e)
+        {
+            Order order = new Order(Code, Name, Gen, Level);
+            order.Show();
+        }
+        
     }
 }

@@ -34,3 +34,5 @@ C:\Users\ACER\Source\Repos\Lietear\CoffeeShop_Project\CoffeeShop\obj\Debug\Coffe
 C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.main_admin.resources
 C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.main_manager.resources
 C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.main_staff.resources
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.ProductMenu.resources
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.Order.resources

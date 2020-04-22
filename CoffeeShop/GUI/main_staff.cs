@@ -46,5 +46,11 @@ namespace CoffeeShop.GUI
         {
             InitializeComponent();
         }
+
+        private void order_button_Click(object sender, EventArgs e)
+        {
+            Order order = new Order(Code, Name, Gen, Level);
+            order.Show();
+        }
     }
 }
