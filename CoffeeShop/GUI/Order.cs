@@ -127,6 +127,7 @@ namespace CoffeeShop.GUI
                 {
                     if (listView1.Items[i].Selected)
                     {
+                        txt_sub.Text = (Convert.ToInt16(txt_sub.Text) - Convert.ToInt16(listView1.Items[1].SubItems[3].Text)).ToString();
                         listView1.Items[i].Remove();
                     }
                 }
