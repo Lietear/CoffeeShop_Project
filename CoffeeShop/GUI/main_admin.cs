@@ -55,6 +55,11 @@ namespace CoffeeShop.GUI
             Order order = new Order(Code, Name, Gen, Level);
             order.Show();
         }
-        
+
+        private void management_button_Click(object sender, EventArgs e)
+        {
+            Management_admin management_Admin = new Management_admin();
+            management_Admin.Show();
+        }
     }
 }

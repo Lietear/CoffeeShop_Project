@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.order_button = new System.Windows.Forms.Button();
+            this.management_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // getID
@@ -81,11 +82,22 @@
             this.order_button.UseVisualStyleBackColor = true;
             this.order_button.Click += new System.EventHandler(this.order_button_Click);
             // 
+            // management_button
+            // 
+            this.management_button.Location = new System.Drawing.Point(578, 130);
+            this.management_button.Name = "management_button";
+            this.management_button.Size = new System.Drawing.Size(184, 50);
+            this.management_button.TabIndex = 9;
+            this.management_button.Text = "Management";
+            this.management_button.UseVisualStyleBackColor = true;
+            this.management_button.Click += new System.EventHandler(this.management_button_Click);
+            // 
             // main_admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.management_button);
             this.Controls.Add(this.order_button);
             this.Controls.Add(this.getID);
             this.Controls.Add(this.getName);
@@ -105,5 +117,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button order_button;
+        private System.Windows.Forms.Button management_button;
     }
 }
