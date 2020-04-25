@@ -37,3 +37,4 @@ C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop
 C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.ProductMenu.resources
 C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.Order.resources
 C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.Management_admin.resources
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.register_customer.resources
