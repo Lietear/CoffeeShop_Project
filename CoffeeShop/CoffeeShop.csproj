@@ -186,5 +186,14 @@
   <ItemGroup>
     <None Include="Resources\Untitled-1 %282%291.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1ad0178cdeec98b7f59f010d7f8487e87012e0b8_original.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-shop-logo-design-template-0c96db5bfc49a90c73bb5c16605d0a01_screen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\้้้2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

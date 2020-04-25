@@ -45,8 +45,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gray;
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.BackColor = System.Drawing.Color.DimGray;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(228, 15);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -57,8 +57,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Gray;
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.BackColor = System.Drawing.Color.DimGray;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(228, 235);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
@@ -69,8 +69,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Gray;
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.BackColor = System.Drawing.Color.DimGray;
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(228, 69);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -81,8 +81,8 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Gray;
-            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.BackColor = System.Drawing.Color.DimGray;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(228, 123);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -93,8 +93,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Gray;
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.BackColor = System.Drawing.Color.DimGray;
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(228, 183);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -155,26 +155,28 @@
             // 
             // update_button
             // 
-            this.update_button.BackColor = System.Drawing.Color.Transparent;
-            this.update_button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.update_button.Image = global::CoffeeShop.Properties.Resources.Untitled_1__2_1;
-            this.update_button.Location = new System.Drawing.Point(153, 392);
+            this.update_button.BackColor = System.Drawing.Color.Black;
+            this.update_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.update_button.Location = new System.Drawing.Point(116, 392);
             this.update_button.Margin = new System.Windows.Forms.Padding(4);
             this.update_button.Name = "update_button";
-            this.update_button.Size = new System.Drawing.Size(145, 45);
+            this.update_button.Size = new System.Drawing.Size(182, 38);
             this.update_button.TabIndex = 13;
+            this.update_button.Text = "Update";
             this.update_button.UseVisualStyleBackColor = false;
             this.update_button.Click += new System.EventHandler(this.update_button_Click);
             // 
             // delete_button
             // 
-            this.delete_button.Image = global::CoffeeShop.Properties.Resources.Untitled_1__2_2;
+            this.delete_button.BackColor = System.Drawing.Color.SaddleBrown;
+            this.delete_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.delete_button.Location = new System.Drawing.Point(441, 392);
             this.delete_button.Margin = new System.Windows.Forms.Padding(4);
             this.delete_button.Name = "delete_button";
-            this.delete_button.Size = new System.Drawing.Size(136, 45);
+            this.delete_button.Size = new System.Drawing.Size(179, 38);
             this.delete_button.TabIndex = 14;
-            this.delete_button.UseVisualStyleBackColor = true;
+            this.delete_button.Text = "Delete";
+            this.delete_button.UseVisualStyleBackColor = false;
             // 
             // Management_admin
             // 
