@@ -59,7 +59,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Gray;
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(228, 248);
+            this.label2.Location = new System.Drawing.Point(228, 235);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 17);
@@ -104,7 +104,7 @@
             // 
             // txt_StaffCode
             // 
-            this.txt_StaffCode.Location = new System.Drawing.Point(321, 245);
+            this.txt_StaffCode.Location = new System.Drawing.Point(321, 232);
             this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffCode.Name = "txt_StaffCode";
             this.txt_StaffCode.Size = new System.Drawing.Size(149, 22);
