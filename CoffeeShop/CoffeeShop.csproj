@@ -65,6 +65,12 @@
     <Compile Include="GUI\Management_admin.Designer.cs">
       <DependentUpon>Management_admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Management_manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Management_manager.Designer.cs">
+      <DependentUpon>Management_manager.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Order.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,12 @@
     <Compile Include="GUI\ProductMenu.Designer.cs">
       <DependentUpon>ProductMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\register_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\register_customer.Designer.cs">
+      <DependentUpon>register_customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Login.resx">
@@ -99,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Management_admin.resx">
       <DependentUpon>Management_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Management_manager.resx">
+      <DependentUpon>Management_manager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Order.resx">
       <DependentUpon>Order.cs</DependentUpon>
@@ -111,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ProductMenu.resx">
       <DependentUpon>ProductMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\register_customer.resx">
+      <DependentUpon>register_customer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

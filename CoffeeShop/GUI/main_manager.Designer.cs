@@ -32,6 +32,9 @@
             this.getName = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.order_button = new System.Windows.Forms.Button();
+            this.managment_button = new System.Windows.Forms.Button();
+            this.reg_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // getID
@@ -70,11 +73,43 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Name";
             // 
+            // order_button
+            // 
+            this.order_button.Location = new System.Drawing.Point(566, 26);
+            this.order_button.Name = "order_button";
+            this.order_button.Size = new System.Drawing.Size(160, 66);
+            this.order_button.TabIndex = 8;
+            this.order_button.Text = "Order";
+            this.order_button.UseVisualStyleBackColor = true;
+            this.order_button.Click += new System.EventHandler(this.order_button_Click);
+            // 
+            // managment_button
+            // 
+            this.managment_button.Location = new System.Drawing.Point(566, 98);
+            this.managment_button.Name = "managment_button";
+            this.managment_button.Size = new System.Drawing.Size(160, 66);
+            this.managment_button.TabIndex = 8;
+            this.managment_button.Text = "Managment Staff";
+            this.managment_button.UseVisualStyleBackColor = true;
+            this.managment_button.Click += new System.EventHandler(this.managment_button_Click);
+            // 
+            // reg_button
+            // 
+            this.reg_button.Location = new System.Drawing.Point(566, 170);
+            this.reg_button.Name = "reg_button";
+            this.reg_button.Size = new System.Drawing.Size(160, 66);
+            this.reg_button.TabIndex = 8;
+            this.reg_button.Text = "Register Member";
+            this.reg_button.UseVisualStyleBackColor = true;
+            // 
             // main_manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.reg_button);
+            this.Controls.Add(this.managment_button);
+            this.Controls.Add(this.order_button);
             this.Controls.Add(this.getID);
             this.Controls.Add(this.getName);
             this.Controls.Add(this.label2);
@@ -92,5 +127,8 @@
         private System.Windows.Forms.Label getName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button order_button;
+        private System.Windows.Forms.Button managment_button;
+        private System.Windows.Forms.Button reg_button;
     }
 }

@@ -46,5 +46,17 @@ namespace CoffeeShop.GUI
         {
             InitializeComponent();
         }
+
+        private void order_button_Click(object sender, EventArgs e)
+        {
+            Order order = new Order();
+            order.Show();
+        }
+
+        private void managment_button_Click(object sender, EventArgs e)
+        {
+            Management_manager management_Manager = new Management_manager();
+            management_Manager.Show();
+        }
     }
 }
