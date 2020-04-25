@@ -101,7 +101,7 @@
             this.reg_button.TabIndex = 10;
             this.reg_button.Text = "Register Member";
             this.reg_button.UseVisualStyleBackColor = true;
-            this.reg_button.Click += new System.EventHandler(this.reg_button_Click_1);
+            this.reg_button.Click += new System.EventHandler(this.reg_button_Click);
             // 
             // main_admin
             // 

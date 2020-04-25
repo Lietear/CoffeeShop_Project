@@ -65,6 +65,12 @@
     <Compile Include="GUI\Management_admin.Designer.cs">
       <DependentUpon>Management_admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Management_manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Management_manager.Designer.cs">
+      <DependentUpon>Management_manager.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Order.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Management_admin.resx">
       <DependentUpon>Management_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Management_manager.resx">
+      <DependentUpon>Management_manager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Order.resx">
       <DependentUpon>Order.cs</DependentUpon>
