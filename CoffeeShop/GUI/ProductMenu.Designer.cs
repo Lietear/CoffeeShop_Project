@@ -39,11 +39,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.page2 = new System.Windows.Forms.Panel();
-            this.page1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.add = new System.Windows.Forms.Button();
             this.cancel = new System.Windows.Forms.Button();
+            this.page1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
+            this.add = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.page2.SuspendLayout();
             this.page1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -51,12 +51,14 @@
             // 
             // bt1
             // 
+            this.bt1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.bt1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.bt1.Location = new System.Drawing.Point(130, 323);
             this.bt1.Name = "bt1";
-            this.bt1.Size = new System.Drawing.Size(75, 23);
+            this.bt1.Size = new System.Drawing.Size(75, 26);
             this.bt1.TabIndex = 11;
-            this.bt1.Text = "ok";
-            this.bt1.UseVisualStyleBackColor = true;
+            this.bt1.Text = "OK";
+            this.bt1.UseVisualStyleBackColor = false;
             this.bt1.Click += new System.EventHandler(this.bt1_Click);
             // 
             // select
@@ -151,18 +153,52 @@
             this.page2.Controls.Add(this.bt1);
             this.page2.Location = new System.Drawing.Point(180, 12);
             this.page2.Name = "page2";
-            this.page2.Size = new System.Drawing.Size(400, 407);
+            this.page2.Size = new System.Drawing.Size(428, 407);
             this.page2.TabIndex = 16;
+            // 
+            // cancel
+            // 
+            this.cancel.BackColor = System.Drawing.Color.DarkRed;
+            this.cancel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cancel.Location = new System.Drawing.Point(272, 323);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(75, 26);
+            this.cancel.TabIndex = 16;
+            this.cancel.Text = "Cancel";
+            this.cancel.UseVisualStyleBackColor = false;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
             // 
             // page1
             // 
+            this.page1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.page1.Controls.Add(this.label5);
             this.page1.Controls.Add(this.add);
             this.page1.Controls.Add(this.dataGridView1);
-            this.page1.Location = new System.Drawing.Point(29, 31);
+            this.page1.Location = new System.Drawing.Point(63, 12);
             this.page1.Name = "page1";
-            this.page1.Size = new System.Drawing.Size(717, 407);
+            this.page1.Size = new System.Drawing.Size(688, 426);
             this.page1.TabIndex = 17;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(281, 2);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 17);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Product Menu";
+            // 
+            // add
+            // 
+            this.add.BackColor = System.Drawing.Color.DarkRed;
+            this.add.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.add.Location = new System.Drawing.Point(18, 344);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(75, 23);
+            this.add.TabIndex = 1;
+            this.add.Text = "add";
+            this.add.UseVisualStyleBackColor = false;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // dataGridView1
             // 
@@ -175,39 +211,12 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // add
-            // 
-            this.add.Location = new System.Drawing.Point(18, 344);
-            this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(75, 23);
-            this.add.TabIndex = 1;
-            this.add.Text = "add";
-            this.add.UseVisualStyleBackColor = true;
-            this.add.Click += new System.EventHandler(this.add_Click);
-            // 
-            // cancel
-            // 
-            this.cancel.Location = new System.Drawing.Point(272, 323);
-            this.cancel.Name = "cancel";
-            this.cancel.Size = new System.Drawing.Size(75, 23);
-            this.cancel.TabIndex = 16;
-            this.cancel.Text = "cancel";
-            this.cancel.UseVisualStyleBackColor = true;
-            this.cancel.Click += new System.EventHandler(this.cancel_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(281, 2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 17);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Product Menu";
-            // 
             // ProductMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.BackgroundImage = global::CoffeeShop.Properties.Resources.Untitled_1;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.page1);
             this.Controls.Add(this.page2);

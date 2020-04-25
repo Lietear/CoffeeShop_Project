@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\CoffeeShop",
+    "\\CoffeeShop\\bin",
     "\\CoffeeShop\\bin\\Debug",
     "\\CoffeeShop\\bin\\Release",
     "\\CoffeeShop\\GUI",
