@@ -18,6 +18,7 @@ namespace CoffeeShop.GUI
         {
             InitializeComponent();
             this.StaffName_text.Text = Name;
+            this.CodeID.Text = Code;
             Fillcombo();
         }
         public Order()
@@ -136,7 +137,29 @@ namespace CoffeeShop.GUI
 
         private void confirm_button_Click(object sender, EventArgs e)
         {
-
+            string time = DateTime.Now.ToString();
+            MySqlConnection connection = new MySqlConnection(conDB);
+            connection.ConnectionString = conDB;
+            connection.Open();
+            string customerID = textBox1.Text;
+            string Query = "INSERT INTO sales(SaleDateTime,CustomerID,StaffID,GrandTotal) VALUES('" + time + "','" + customerID + "','" + CodeID.Text + "','" + txt_sub.Text + "')";
+            MySqlCommand command = new MySqlCommand(Query, connection);
+            command.ExecuteNonQuery();
+            foreach (ListViewItem item in this.listView1.Items)
+            {
+                String pname = item.SubItems[0].Text;
+                String price = item.SubItems[1].Text;
+                String quantity = item.SubItems[2].Text;
+                String amount = item.SubItems[3].Text;
+                Query = "INSERT INTO sale_details SELECT null,SaleID,ProductID,'" + price + "','" + quantity + "','" + amount + "'" +
+                                                  "FROM sales,products " +
+                                                  "WHERE SaleDateTime ='" + time + "'AND ProductName ='" + pname + "'";
+                command = new MySqlCommand(Query, connection);
+                command.ExecuteNonQuery();
+            }
+            listView1.Clear();
+            txt_sub.Text = "0";
+            MessageBox.Show("Completed purchase");
         }
 
         private void txt_point_TextChanged(object sender, EventArgs e)

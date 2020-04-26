@@ -60,6 +60,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.CodeID = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -369,12 +371,32 @@
             this.textBox7.Size = new System.Drawing.Size(99, 22);
             this.textBox7.TabIndex = 58;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(35, 44);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(21, 17);
+            this.label13.TabIndex = 59;
+            this.label13.Text = "ID";
+            // 
+            // CodeID
+            // 
+            this.CodeID.AutoSize = true;
+            this.CodeID.Location = new System.Drawing.Point(90, 44);
+            this.CodeID.Name = "CodeID";
+            this.CodeID.Size = new System.Drawing.Size(41, 17);
+            this.CodeID.TabIndex = 60;
+            this.CodeID.Text = "Code";
+            // 
             // Order
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(784, 562);
+            this.Controls.Add(this.CodeID);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -445,5 +467,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label CodeID;
     }
 }
