@@ -66,5 +66,17 @@ namespace CoffeeShop.GUI
             register_customer register_Customer = new register_customer();
             register_Customer.Show();
         }
+
+        private void addproduct_button_Click(object sender, EventArgs e)
+        {
+            ProductMenu productMenu = new ProductMenu();
+            productMenu.Show();
+        }
+
+        private void history_button_Click(object sender, EventArgs e)
+        {
+            History history = new History();
+            history.Show();
+        }
     }
 }

@@ -35,6 +35,8 @@
             this.order_button = new System.Windows.Forms.Button();
             this.management_button = new System.Windows.Forms.Button();
             this.reg_button = new System.Windows.Forms.Button();
+            this.addproduct_button = new System.Windows.Forms.Button();
+            this.history_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // getID
@@ -95,7 +97,7 @@
             // 
             // reg_button
             // 
-            this.reg_button.Location = new System.Drawing.Point(578, 185);
+            this.reg_button.Location = new System.Drawing.Point(578, 178);
             this.reg_button.Name = "reg_button";
             this.reg_button.Size = new System.Drawing.Size(184, 51);
             this.reg_button.TabIndex = 10;
@@ -103,11 +105,33 @@
             this.reg_button.UseVisualStyleBackColor = true;
             this.reg_button.Click += new System.EventHandler(this.reg_button_Click);
             // 
+            // addproduct_button
+            // 
+            this.addproduct_button.Location = new System.Drawing.Point(578, 251);
+            this.addproduct_button.Name = "addproduct_button";
+            this.addproduct_button.Size = new System.Drawing.Size(184, 53);
+            this.addproduct_button.TabIndex = 11;
+            this.addproduct_button.Text = "Add Product";
+            this.addproduct_button.UseVisualStyleBackColor = true;
+            this.addproduct_button.Click += new System.EventHandler(this.addproduct_button_Click);
+            // 
+            // history_button
+            // 
+            this.history_button.Location = new System.Drawing.Point(578, 327);
+            this.history_button.Name = "history_button";
+            this.history_button.Size = new System.Drawing.Size(184, 57);
+            this.history_button.TabIndex = 12;
+            this.history_button.Text = "History";
+            this.history_button.UseVisualStyleBackColor = true;
+            this.history_button.Click += new System.EventHandler(this.history_button_Click);
+            // 
             // main_admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.history_button);
+            this.Controls.Add(this.addproduct_button);
             this.Controls.Add(this.reg_button);
             this.Controls.Add(this.management_button);
             this.Controls.Add(this.order_button);
@@ -131,5 +155,7 @@
         private System.Windows.Forms.Button order_button;
         private System.Windows.Forms.Button management_button;
         private System.Windows.Forms.Button reg_button;
+        private System.Windows.Forms.Button addproduct_button;
+        private System.Windows.Forms.Button history_button;
     }
 }
