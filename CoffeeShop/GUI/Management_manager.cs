@@ -96,6 +96,11 @@ namespace CoffeeShop.GUI
             gender_combo.Text = "";
             stafflevel_combo.Text = "";
 
-        } 
+        }
+
+        private void Management_manager_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

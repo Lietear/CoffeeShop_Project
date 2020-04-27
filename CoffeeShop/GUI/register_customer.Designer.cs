@@ -44,60 +44,67 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(186, 30);
+            this.label1.Location = new System.Drawing.Point(248, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(61, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Register";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(37, 66);
+            this.label2.Location = new System.Drawing.Point(49, 81);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(45, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 96);
+            this.label3.Location = new System.Drawing.Point(49, 118);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(56, 17);
             this.label3.TabIndex = 3;
             this.label3.Text = "Gender";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 130);
+            this.label4.Location = new System.Drawing.Point(49, 160);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.Size = new System.Drawing.Size(71, 17);
             this.label4.TabIndex = 4;
             this.label4.Text = "PhoneNo.";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(37, 160);
+            this.label5.Location = new System.Drawing.Point(49, 197);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 13);
+            this.label5.Size = new System.Drawing.Size(40, 17);
             this.label5.TabIndex = 5;
             this.label5.Text = "Type";
             // 
             // txt_name
             // 
-            this.txt_name.Location = new System.Drawing.Point(104, 63);
+            this.txt_name.Location = new System.Drawing.Point(139, 78);
+            this.txt_name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(181, 20);
+            this.txt_name.Size = new System.Drawing.Size(240, 22);
             this.txt_name.TabIndex = 6;
             // 
             // txt_phone
             // 
-            this.txt_phone.Location = new System.Drawing.Point(104, 127);
+            this.txt_phone.Location = new System.Drawing.Point(139, 156);
+            this.txt_phone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_phone.Name = "txt_phone";
-            this.txt_phone.Size = new System.Drawing.Size(128, 20);
+            this.txt_phone.Size = new System.Drawing.Size(169, 22);
             this.txt_phone.TabIndex = 8;
             // 
             // gen_combo
@@ -106,9 +113,10 @@
             this.gen_combo.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.gen_combo.Location = new System.Drawing.Point(104, 93);
+            this.gen_combo.Location = new System.Drawing.Point(139, 114);
+            this.gen_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gen_combo.Name = "gen_combo";
-            this.gen_combo.Size = new System.Drawing.Size(99, 21);
+            this.gen_combo.Size = new System.Drawing.Size(131, 24);
             this.gen_combo.TabIndex = 10;
             // 
             // type_combo
@@ -118,16 +126,19 @@
             "Member",
             "VIP",
             "Other"});
-            this.type_combo.Location = new System.Drawing.Point(104, 157);
+            this.type_combo.Location = new System.Drawing.Point(139, 193);
+            this.type_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.type_combo.Name = "type_combo";
-            this.type_combo.Size = new System.Drawing.Size(121, 21);
+            this.type_combo.Size = new System.Drawing.Size(160, 24);
             this.type_combo.TabIndex = 11;
             // 
             // reg_button
             // 
-            this.reg_button.Location = new System.Drawing.Point(229, 188);
+            this.reg_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.reg_button.Location = new System.Drawing.Point(305, 231);
+            this.reg_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.reg_button.Name = "reg_button";
-            this.reg_button.Size = new System.Drawing.Size(87, 26);
+            this.reg_button.Size = new System.Drawing.Size(116, 32);
             this.reg_button.TabIndex = 12;
             this.reg_button.Text = "Register";
             this.reg_button.UseVisualStyleBackColor = true;
@@ -135,9 +146,10 @@
             // 
             // close_button
             // 
-            this.close_button.Location = new System.Drawing.Point(322, 188);
+            this.close_button.Location = new System.Drawing.Point(429, 231);
+            this.close_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.close_button.Name = "close_button";
-            this.close_button.Size = new System.Drawing.Size(87, 26);
+            this.close_button.Size = new System.Drawing.Size(116, 32);
             this.close_button.TabIndex = 12;
             this.close_button.Text = "Close";
             this.close_button.UseVisualStyleBackColor = true;
@@ -145,9 +157,9 @@
             // 
             // register_customer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(421, 226);
+            this.ClientSize = new System.Drawing.Size(561, 278);
             this.Controls.Add(this.close_button);
             this.Controls.Add(this.reg_button);
             this.Controls.Add(this.type_combo);
@@ -159,6 +171,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "register_customer";
             this.Text = "register_customer";
             this.ResumeLayout(false);

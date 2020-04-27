@@ -200,6 +200,11 @@ namespace CoffeeShop.GUI
             stafflevel_combo.Text = "";
 
         }
+
+        private void add_panel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 
