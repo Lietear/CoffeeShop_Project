@@ -183,6 +183,16 @@ namespace CoffeeShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coffee {
+            get {
+                object obj = ResourceManager.GetObject("coffee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coffee_shop_logo_design_template_0c96db5bfc49a90c73bb5c16605d0a01_screen {
             get {
                 object obj = ResourceManager.GetObject("coffee-shop-logo-design-template-0c96db5bfc49a90c73bb5c16605d0a01_screen", resourceCulture);

@@ -234,5 +234,8 @@
   <ItemGroup>
     <None Include="Resources\coffee-ลดน้ำหนักด้วยการดื่มกาแฟ5cx.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

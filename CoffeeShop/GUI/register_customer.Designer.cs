@@ -163,6 +163,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee;
             this.ClientSize = new System.Drawing.Size(561, 278);
             this.Controls.Add(this.close_button);
             this.Controls.Add(this.reg_button);
@@ -175,6 +176,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "register_customer";
             this.Text = "register_customer";
