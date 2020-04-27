@@ -94,7 +94,7 @@
             // txt_name
             // 
             this.txt_name.Location = new System.Drawing.Point(139, 78);
-            this.txt_name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_name.Margin = new System.Windows.Forms.Padding(4);
             this.txt_name.Name = "txt_name";
             this.txt_name.Size = new System.Drawing.Size(240, 22);
             this.txt_name.TabIndex = 6;
@@ -102,7 +102,7 @@
             // txt_phone
             // 
             this.txt_phone.Location = new System.Drawing.Point(139, 156);
-            this.txt_phone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_phone.Margin = new System.Windows.Forms.Padding(4);
             this.txt_phone.Name = "txt_phone";
             this.txt_phone.Size = new System.Drawing.Size(169, 22);
             this.txt_phone.TabIndex = 8;
@@ -114,7 +114,7 @@
             "Male",
             "Female"});
             this.gen_combo.Location = new System.Drawing.Point(139, 114);
-            this.gen_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gen_combo.Margin = new System.Windows.Forms.Padding(4);
             this.gen_combo.Name = "gen_combo";
             this.gen_combo.Size = new System.Drawing.Size(131, 24);
             this.gen_combo.TabIndex = 10;
@@ -127,38 +127,42 @@
             "VIP",
             "Other"});
             this.type_combo.Location = new System.Drawing.Point(139, 193);
-            this.type_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.type_combo.Margin = new System.Windows.Forms.Padding(4);
             this.type_combo.Name = "type_combo";
             this.type_combo.Size = new System.Drawing.Size(160, 24);
             this.type_combo.TabIndex = 11;
             // 
             // reg_button
             // 
+            this.reg_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.reg_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.reg_button.Location = new System.Drawing.Point(305, 231);
-            this.reg_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reg_button.Margin = new System.Windows.Forms.Padding(4);
             this.reg_button.Name = "reg_button";
             this.reg_button.Size = new System.Drawing.Size(116, 32);
             this.reg_button.TabIndex = 12;
             this.reg_button.Text = "Register";
-            this.reg_button.UseVisualStyleBackColor = true;
+            this.reg_button.UseVisualStyleBackColor = false;
             this.reg_button.Click += new System.EventHandler(this.reg_button_Click);
             // 
             // close_button
             // 
+            this.close_button.BackColor = System.Drawing.Color.DarkRed;
+            this.close_button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.close_button.Location = new System.Drawing.Point(429, 231);
-            this.close_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.close_button.Margin = new System.Windows.Forms.Padding(4);
             this.close_button.Name = "close_button";
             this.close_button.Size = new System.Drawing.Size(116, 32);
             this.close_button.TabIndex = 12;
             this.close_button.Text = "Close";
-            this.close_button.UseVisualStyleBackColor = true;
+            this.close_button.UseVisualStyleBackColor = false;
             this.close_button.Click += new System.EventHandler(this.close_button_Click);
             // 
             // register_customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(561, 278);
             this.Controls.Add(this.close_button);
             this.Controls.Add(this.reg_button);
@@ -171,7 +175,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "register_customer";
             this.Text = "register_customer";
             this.ResumeLayout(false);
