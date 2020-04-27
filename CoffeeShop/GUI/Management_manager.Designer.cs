@@ -48,8 +48,8 @@
             // 
             this.delete_button.BackColor = System.Drawing.Color.SaddleBrown;
             this.delete_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.delete_button.Location = new System.Drawing.Point(444, 381);
-            this.delete_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.delete_button.Location = new System.Drawing.Point(659, 414);
+            this.delete_button.Margin = new System.Windows.Forms.Padding(4);
             this.delete_button.Name = "delete_button";
             this.delete_button.Size = new System.Drawing.Size(179, 38);
             this.delete_button.TabIndex = 26;
@@ -61,8 +61,8 @@
             // 
             this.update_button.BackColor = System.Drawing.Color.Black;
             this.update_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.update_button.Location = new System.Drawing.Point(88, 381);
-            this.update_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.update_button.Location = new System.Drawing.Point(284, 414);
+            this.update_button.Margin = new System.Windows.Forms.Padding(4);
             this.update_button.Name = "update_button";
             this.update_button.Size = new System.Drawing.Size(181, 38);
             this.update_button.TabIndex = 25;
@@ -75,8 +75,8 @@
             this.stafflevel_combo.FormattingEnabled = true;
             this.stafflevel_combo.Items.AddRange(new object[] {
             "Staff"});
-            this.stafflevel_combo.Location = new System.Drawing.Point(305, 222);
-            this.stafflevel_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.stafflevel_combo.Location = new System.Drawing.Point(540, 258);
+            this.stafflevel_combo.Margin = new System.Windows.Forms.Padding(4);
             this.stafflevel_combo.Name = "stafflevel_combo";
             this.stafflevel_combo.Size = new System.Drawing.Size(160, 24);
             this.stafflevel_combo.TabIndex = 23;
@@ -87,32 +87,32 @@
             this.gender_combo.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.gender_combo.Location = new System.Drawing.Point(305, 171);
-            this.gender_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gender_combo.Location = new System.Drawing.Point(540, 199);
+            this.gender_combo.Margin = new System.Windows.Forms.Padding(4);
             this.gender_combo.Name = "gender_combo";
             this.gender_combo.Size = new System.Drawing.Size(160, 24);
             this.gender_combo.TabIndex = 22;
             // 
             // txt_StaffName
             // 
-            this.txt_StaffName.Location = new System.Drawing.Point(305, 91);
-            this.txt_StaffName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffName.Location = new System.Drawing.Point(540, 102);
+            this.txt_StaffName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffName.Name = "txt_StaffName";
             this.txt_StaffName.Size = new System.Drawing.Size(227, 22);
             this.txt_StaffName.TabIndex = 21;
             // 
             // txt_StaffID
             // 
-            this.txt_StaffID.Location = new System.Drawing.Point(305, 46);
-            this.txt_StaffID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffID.Location = new System.Drawing.Point(540, 49);
+            this.txt_StaffID.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffID.Name = "txt_StaffID";
             this.txt_StaffID.Size = new System.Drawing.Size(185, 22);
             this.txt_StaffID.TabIndex = 20;
             // 
             // txt_StaffCode
             // 
-            this.txt_StaffCode.Location = new System.Drawing.Point(305, 265);
-            this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffCode.Location = new System.Drawing.Point(540, 321);
+            this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffCode.Name = "txt_StaffCode";
             this.txt_StaffCode.Size = new System.Drawing.Size(149, 22);
             this.txt_StaffCode.TabIndex = 24;
@@ -122,7 +122,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.DimGray;
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(193, 225);
+            this.label5.Location = new System.Drawing.Point(403, 258);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 17);
@@ -134,7 +134,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DimGray;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(193, 178);
+            this.label4.Location = new System.Drawing.Point(405, 199);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(56, 17);
@@ -146,7 +146,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.DimGray;
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(195, 91);
+            this.label3.Location = new System.Drawing.Point(405, 102);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 17);
@@ -158,7 +158,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.DimGray;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(193, 265);
+            this.label2.Location = new System.Drawing.Point(406, 324);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 17);
@@ -170,7 +170,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DimGray;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(199, 49);
+            this.label1.Location = new System.Drawing.Point(405, 49);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 17);
@@ -182,7 +182,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.DimGray;
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(195, 132);
+            this.label6.Location = new System.Drawing.Point(405, 149);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 17);
@@ -191,8 +191,8 @@
             // 
             // txt_pass
             // 
-            this.txt_pass.Location = new System.Drawing.Point(305, 132);
-            this.txt_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_pass.Location = new System.Drawing.Point(540, 149);
+            this.txt_pass.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.Size = new System.Drawing.Size(227, 22);
             this.txt_pass.TabIndex = 28;
@@ -201,8 +201,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CoffeeShop.Properties.Resources.Cappuccino_dooddot_1;
-            this.ClientSize = new System.Drawing.Size(803, 554);
+            this.BackgroundImage = global::CoffeeShop.Properties.Resources.Weight_loss_with_coffee_really_do;
+            this.ClientSize = new System.Drawing.Size(1052, 592);
             this.Controls.Add(this.txt_pass);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.delete_button);
@@ -217,7 +217,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Management_manager";
             this.Load += new System.EventHandler(this.Management_manager_Load);
             this.ResumeLayout(false);

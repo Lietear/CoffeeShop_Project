@@ -193,6 +193,16 @@ namespace CoffeeShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coffee_ลดน้ำหนักด้วยการดื่มกาแฟ5cx {
+            get {
+                object obj = ResourceManager.GetObject("coffee-ลดน้ำหนักด้วยการดื่มกาแฟ5cx", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap l_6792_15116987671062761985 {
             get {
                 object obj = ResourceManager.GetObject("l_6792_15116987671062761985", resourceCulture);
@@ -256,6 +266,16 @@ namespace CoffeeShop.Properties {
         internal static System.Drawing.Bitmap Untitled_3 {
             get {
                 object obj = ResourceManager.GetObject("Untitled-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Weight_loss_with_coffee_really_do {
+            get {
+                object obj = ResourceManager.GetObject("Weight-loss-with-coffee-really-do", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

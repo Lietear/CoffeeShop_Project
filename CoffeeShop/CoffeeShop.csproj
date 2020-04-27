@@ -228,5 +228,11 @@
   <ItemGroup>
     <None Include="Resources\B6FtNKtgSqRqbnNsUzH6Z3tvb4rr0JtbPFm9X3u2epXJDyoPbc4WVErQJRHNG3x8Uidn5.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Weight-loss-with-coffee-really-do.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-ลดน้ำหนักด้วยการดื่มกาแฟ5cx.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
