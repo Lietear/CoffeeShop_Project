@@ -63,5 +63,17 @@ namespace CoffeeShop.GUI
             Order order = new Order(ID, Code, Name, Gen, Level);
             order.Show();
         }
+
+        private void history_button_Click(object sender, EventArgs e)
+        {
+            History history = new History();
+            history.Show();
+        }
+
+        private void reg_button_Click(object sender, EventArgs e)
+        {
+            register_customer register = new register_customer();
+            register.Show();
+        }
     }
 }

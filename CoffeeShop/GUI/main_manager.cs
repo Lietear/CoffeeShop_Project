@@ -69,5 +69,17 @@ namespace CoffeeShop.GUI
             Management_manager management_Manager = new Management_manager();
             management_Manager.Show();
         }
+
+        private void reg_button_Click(object sender, EventArgs e)
+        {
+            register_customer register = new register_customer();
+            register.Show();
+        }
+
+        private void history_button_Click(object sender, EventArgs e)
+        {
+            History history = new History();
+            history.Show();
+        }
     }
 }
