@@ -15,6 +15,7 @@ namespace CoffeeShop.GUI
     {
         private string conDB = "server = localhost; user id = root; password = 1234567890; persistsecurityinfo=True;database=coffee;allowuservariables=True";
         string ID;
+        string memberid;
         public Order(string ID,string Code, string Name, string Gen, string Level)
         {
             InitializeComponent();
@@ -144,7 +145,7 @@ namespace CoffeeShop.GUI
             connection.ConnectionString = conDB;
             connection.Open();
             string Codestaff = ID;
-            string customerID = txt_customer.Text;
+            string customerID = memberid;
             string Query = "INSERT INTO sales(SaleDateTime,CustomerID,StaffID,GrandTotal) VALUES('" + time + "','" + customerID + "','" + Codestaff + "','" + txt_sub.Text + "')";
             MySqlCommand command = new MySqlCommand(Query, connection);
             command.ExecuteNonQuery();
@@ -179,6 +180,14 @@ namespace CoffeeShop.GUI
             listView1.Clear();
             txt_customer.Clear();
             txt_sub.Text = "0";
+            txt_balance.Clear();
+            txt_point.Clear();
+            txt_getpoint.Clear();
+            txt_net.Clear();
+            txt_receive.Clear();
+            txt_qty.Clear();
+            txt_price.Clear();
+            txt_total.Clear();
             connection.Close();
             MessageBox.Show("Completed purchase");
         }
@@ -202,7 +211,7 @@ namespace CoffeeShop.GUI
         {
             MySqlConnection connection = new MySqlConnection(conDB);
             connection.ConnectionString = conDB;
-            String query = "SELECT * FROM customers WHERE CustomerID='" + customerID + "' ";
+            String query = "SELECT * FROM customers WHERE CustomerTelNo ='" + customerID + "' ";
             try
             {
                 connection.Open();
@@ -212,6 +221,9 @@ namespace CoffeeShop.GUI
                 {
                     string point = rdr.GetString("Points");
                     txt_getpoint.Text = point;
+                    string customerid = rdr.GetString("CustomerID");
+                    this.memberid = customerid;
+
                 }
             }
             catch (Exception ex)
@@ -226,6 +238,11 @@ namespace CoffeeShop.GUI
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             getPoint(txt_customer.Text);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

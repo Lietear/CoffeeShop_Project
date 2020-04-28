@@ -218,11 +218,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(248, 22);
+            this.label2.Location = new System.Drawing.Point(228, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 44;
-            this.label2.Text = "CustomerID";
+            this.label2.Text = "PhoneNumber";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txt_customer
             // 
