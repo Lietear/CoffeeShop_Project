@@ -113,7 +113,7 @@ namespace CoffeeShop.GUI
         private void addstaff_button_Click(object sender, EventArgs e)
         {
             string userid = "";
-            if (stafflevel_combo.Text == "Admin")
+            if (level_combo.Text == "Admin")
             {
                 Random rnd = new Random();
                 int rnd1 = rnd.Next(0, 9);
@@ -124,7 +124,7 @@ namespace CoffeeShop.GUI
                 userid = "A" + rnd1 + rnd2 + rnd3 + rnd4 + rnd5;
 
             }
-            else if (stafflevel_combo.Text == "Manager")
+            else if (level_combo.Text == "Manager")
             {
                 Random rnd = new Random();
                 int rnd1 = rnd.Next(0, 9);
@@ -135,7 +135,7 @@ namespace CoffeeShop.GUI
                 userid = "M" + rnd1 + rnd2 + rnd3 + rnd4 + rnd5;
 
             }
-            else if (stafflevel_combo.Text == "Staff")
+            else if (level_combo.Text == "Staff")
             {
                 Random rnd = new Random();
                 int rnd1 = rnd.Next(0, 9);
