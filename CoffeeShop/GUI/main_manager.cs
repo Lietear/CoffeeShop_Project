@@ -12,10 +12,16 @@ namespace CoffeeShop.GUI
 {
     public partial class main_manager : Form
     {
+        private String id;
         private String code;
         private String name;
         private String gen;
         private String level;
+        public String ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
         public String Code
         {
             get { return code; }
@@ -36,11 +42,16 @@ namespace CoffeeShop.GUI
             get { return level; }
             set { level = value; }
         }
-        public main_manager(string Code, string Name, string Gen, string Level)
+        public main_manager(string ID, string Code, string Name, string Gen, string Level)
         {
             InitializeComponent();
             this.getName.Text = Name;
             this.getID.Text = Code;
+            this.Code = Code;
+            this.Name = Name;
+            this.Gen = Gen;
+            this.Level = Level;
+            this.ID = ID;
         }
         public main_manager()
         {
@@ -49,7 +60,7 @@ namespace CoffeeShop.GUI
 
         private void order_button_Click(object sender, EventArgs e)
         {
-            Order order = new Order();
+            Order order = new Order(ID, Code, Name, Gen, Level);
             order.Show();
         }
 

@@ -13,6 +13,8 @@ namespace CoffeeShop.GUI
 {
     public partial class Login : Form
     {
+        private String StaffID;
+        private String GetStaffID;
         private String StaffCode;
         private String StaffName;
         private String Gender;
@@ -31,7 +33,7 @@ namespace CoffeeShop.GUI
         {
             MySqlConnection connection = new MySqlConnection(conDB);
             connection.ConnectionString = conDB;
-            String query = "SELECT StaffCode,StaffName,Gender,StaffLevel FROM staffs WHERE StaffID = '" + userTextBox.Text + "'";
+            String query = "SELECT * FROM staffs WHERE StaffID = '" + userTextBox.Text + "'";
             try
             {
                 connection.Open();
@@ -41,6 +43,7 @@ namespace CoffeeShop.GUI
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 if (rdr.Read())
                 {
+                    this.GetStaffID = rdr["StaffID"].ToString();
                     this.StaffCode = rdr["StaffCode"].ToString();
                     this.StaffName = rdr["StaffName"].ToString();
                     this.Gender = rdr["Gender"].ToString();
@@ -80,6 +83,7 @@ namespace CoffeeShop.GUI
             {
                 this.getTheName(userTextBox.Text);
                 this.Hide();
+                string ID = this.GetStaffID.Trim();
                 string Code = this.StaffCode.Trim();
                 string Name = this.StaffName.Trim();
                 string Gen = this.Gender.Trim();
@@ -87,19 +91,19 @@ namespace CoffeeShop.GUI
 
                 if (Level == "Admin") //เข้าหน้า main_menu สำหรับ Admin (ยังไม่สร้าง)
                 {
-                    main_admin main_Admin = new main_admin(Code,Name,Gen,Level);
+                    main_admin main_Admin = new main_admin(ID,Code,Name,Gen,Level);
                     main_Admin.Show();
                 }
                 
                 else if(Level == "Maneger")//เข้าหน้า main_menu สำหรับ Maneger (ยังไม่สร้าง)
                 {
-                    main_manager main_Manager = new main_manager(Code, Name, Gen, Level);
+                    main_manager main_Manager = new main_manager(ID,Code, Name, Gen, Level);
                     main_Manager.Show();
                 }
 
                 else if (Level == "Staff") //เข้าหน้า main_menu สำหรับ Staff (ยังไม่สร้าง)
                 {
-                    main_staff main_Staff = new main_staff(Code, Name, Gen, Level);
+                    main_staff main_Staff = new main_staff(ID,Code, Name, Gen, Level);
                     main_Staff.Show();
                 }
 

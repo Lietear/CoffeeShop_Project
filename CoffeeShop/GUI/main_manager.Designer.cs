@@ -35,6 +35,7 @@
             this.order_button = new System.Windows.Forms.Button();
             this.managment_button = new System.Windows.Forms.Button();
             this.reg_button = new System.Windows.Forms.Button();
+            this.history_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // getID
@@ -102,11 +103,21 @@
             this.reg_button.Text = "Register Member";
             this.reg_button.UseVisualStyleBackColor = true;
             // 
+            // history_button
+            // 
+            this.history_button.Location = new System.Drawing.Point(566, 257);
+            this.history_button.Name = "history_button";
+            this.history_button.Size = new System.Drawing.Size(160, 57);
+            this.history_button.TabIndex = 13;
+            this.history_button.Text = "History";
+            this.history_button.UseVisualStyleBackColor = true;
+            // 
             // main_manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.history_button);
             this.Controls.Add(this.reg_button);
             this.Controls.Add(this.managment_button);
             this.Controls.Add(this.order_button);
@@ -130,5 +141,6 @@
         private System.Windows.Forms.Button order_button;
         private System.Windows.Forms.Button managment_button;
         private System.Windows.Forms.Button reg_button;
+        private System.Windows.Forms.Button history_button;
     }
 }

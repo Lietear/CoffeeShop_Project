@@ -46,7 +46,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_customer = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.txt_sub = new System.Windows.Forms.TextBox();
             this.txt_point = new System.Windows.Forms.TextBox();
@@ -59,7 +59,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_getpoint = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.CodeID = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -224,12 +224,13 @@
             this.label2.TabIndex = 44;
             this.label2.Text = "CustomerID";
             // 
-            // textBox1
+            // txt_customer
             // 
-            this.textBox1.Location = new System.Drawing.Point(316, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
-            this.textBox1.TabIndex = 45;
+            this.txt_customer.Location = new System.Drawing.Point(316, 19);
+            this.txt_customer.Name = "txt_customer";
+            this.txt_customer.Size = new System.Drawing.Size(121, 20);
+            this.txt_customer.TabIndex = 45;
+            this.txt_customer.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button2
             // 
@@ -336,12 +337,12 @@
             this.label12.TabIndex = 57;
             this.label12.Text = "Points";
             // 
-            // textBox7
+            // txt_getpoint
             // 
-            this.textBox7.Location = new System.Drawing.Point(485, 19);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(75, 20);
-            this.textBox7.TabIndex = 58;
+            this.txt_getpoint.Location = new System.Drawing.Point(485, 19);
+            this.txt_getpoint.Name = "txt_getpoint";
+            this.txt_getpoint.Size = new System.Drawing.Size(75, 20);
+            this.txt_getpoint.TabIndex = 58;
             // 
             // label13
             // 
@@ -371,7 +372,7 @@
             this.ClientSize = new System.Drawing.Size(588, 457);
             this.Controls.Add(this.CodeID);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txt_getpoint);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -384,7 +385,7 @@
             this.Controls.Add(this.txt_point);
             this.Controls.Add(this.txt_sub);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_customer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.label6);
@@ -426,7 +427,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_customer;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txt_sub;
         private System.Windows.Forms.TextBox txt_point;
@@ -439,7 +440,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_getpoint;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label CodeID;
     }

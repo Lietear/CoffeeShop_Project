@@ -14,12 +14,14 @@ namespace CoffeeShop.GUI
     public partial class Order : Form
     {
         private string conDB = "server = localhost; user id = root; password = 1234567890; persistsecurityinfo=True;database=coffee;allowuservariables=True";
-        public Order(string Code, string Name, string Gen, string Level)
+        string ID;
+        public Order(string ID,string Code, string Name, string Gen, string Level)
         {
             InitializeComponent();
             this.StaffName_text.Text = Name;
             this.CodeID.Text = Code;
             Fillcombo();
+            this.ID = ID;
         }
         public Order()
         {
@@ -141,8 +143,9 @@ namespace CoffeeShop.GUI
             MySqlConnection connection = new MySqlConnection(conDB);
             connection.ConnectionString = conDB;
             connection.Open();
-            string customerID = textBox1.Text;
-            string Query = "INSERT INTO sales(SaleDateTime,CustomerID,StaffID,GrandTotal) VALUES('" + time + "','" + customerID + "','" + CodeID.Text + "','" + txt_sub.Text + "')";
+            string Codestaff = ID;
+            string customerID = txt_customer.Text;
+            string Query = "INSERT INTO sales(SaleDateTime,CustomerID,StaffID,GrandTotal) VALUES('" + time + "','" + customerID + "','" + Codestaff + "','" + txt_sub.Text + "')";
             MySqlCommand command = new MySqlCommand(Query, connection);
             command.ExecuteNonQuery();
             foreach (ListViewItem item in this.listView1.Items)
@@ -156,9 +159,27 @@ namespace CoffeeShop.GUI
                                                   "WHERE SaleDateTime ='" + time + "'AND ProductName ='" + pname + "'";
                 command = new MySqlCommand(Query, connection);
                 command.ExecuteNonQuery();
+               
             }
+            if (txt_point.Text != "0")
+            {
+                int point = (Convert.ToInt16(txt_getpoint.Text) - Convert.ToInt16(txt_point.Text));
+                string Query2 = "UPDATE Customers SET Points = '" + point + "'";
+                command = new MySqlCommand(Query2, connection);
+                command.ExecuteNonQuery();
+            }
+            else
+            {
+                int point = (Convert.ToInt16(txt_getpoint.Text) + (Convert.ToInt16(txt_sub.Text) / 10));
+                string Query2 = "UPDATE Customers SET Points = '" + point + "'";
+                command = new MySqlCommand(Query2, connection);
+                command.ExecuteNonQuery();
+            }
+
             listView1.Clear();
+            txt_customer.Clear();
             txt_sub.Text = "0";
+            connection.Close();
             MessageBox.Show("Completed purchase");
         }
 
@@ -176,6 +197,35 @@ namespace CoffeeShop.GUI
             {
                 txt_balance.Text = (Convert.ToInt16(txt_receive.Text) - Convert.ToInt16(txt_net.Text)).ToString();
             }
+        }
+        public void getPoint(string customerID)
+        {
+            MySqlConnection connection = new MySqlConnection(conDB);
+            connection.ConnectionString = conDB;
+            String query = "SELECT * FROM customers WHERE CustomerID='" + customerID + "' ";
+            try
+            {
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    string point = rdr.GetString("Points");
+                    txt_getpoint.Text = point;
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            getPoint(txt_customer.Text);
         }
     }
 }
