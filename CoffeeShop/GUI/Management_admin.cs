@@ -205,6 +205,11 @@ namespace CoffeeShop.GUI
         {
 
         }
+
+        private void Management_admin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -237,5 +237,74 @@
   <ItemGroup>
     <None Include="Resources\coffee.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_374939812 %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Weight-loss-with-coffee-really-do %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-4512564_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2534919_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expresso-566570_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2534919_12801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2354892_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2354892_19201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2354892_1920 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2456933_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2456933_19201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2456933_1920 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2354892_1920 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\B6FtNKtgSqRqbnNsUzH6Z3tvb4rr0JtbPFm9X3u2epXJDyoPbc4WVErQJRHNG3x8Uidn51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cappuccino-dooddot-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_569107945.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_5691079451.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_569107945 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expresso-566570_19201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-4512564_19201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-4512564_19202.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\555.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\555 %282%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

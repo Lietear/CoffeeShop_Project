@@ -62,6 +62,7 @@
             // main_panel
             // 
             this.main_panel.BackColor = System.Drawing.SystemColors.Window;
+            this.main_panel.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_4512564_1920;
             this.main_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.main_panel.Controls.Add(this.add_panel);
             this.main_panel.Controls.Add(this.delete_button);
@@ -79,15 +80,15 @@
             this.main_panel.Controls.Add(this.label1);
             this.main_panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.main_panel.Location = new System.Drawing.Point(0, 0);
-            this.main_panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.main_panel.Margin = new System.Windows.Forms.Padding(4);
             this.main_panel.Name = "main_panel";
             this.main_panel.Size = new System.Drawing.Size(928, 532);
             this.main_panel.TabIndex = 18;
             // 
             // add_panel
             // 
-            this.add_panel.BackColor = System.Drawing.Color.White;
-            this.add_panel.BackgroundImage = global::CoffeeShop.Properties.Resources.B6FtNKtgSqRqbnNsUzH6Z3tvb4rr0JtbPFm9X3u2epXJDyoPbc4WVErQJRHNG3x8Uidn5;
+            this.add_panel.BackColor = System.Drawing.Color.Crimson;
+            this.add_panel.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_4512564_1920;
             this.add_panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.add_panel.Controls.Add(this.back_button);
             this.add_panel.Controls.Add(this.addstaff_button);
@@ -101,9 +102,8 @@
             this.add_panel.Controls.Add(this.label8);
             this.add_panel.Controls.Add(this.label9);
             this.add_panel.Controls.Add(this.label11);
-            this.add_panel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.add_panel.Location = new System.Drawing.Point(0, 0);
-            this.add_panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.add_panel.Margin = new System.Windows.Forms.Padding(4);
             this.add_panel.Name = "add_panel";
             this.add_panel.Size = new System.Drawing.Size(928, 532);
             this.add_panel.TabIndex = 34;
@@ -113,9 +113,10 @@
             // back_button
             // 
             this.back_button.BackColor = System.Drawing.Color.SaddleBrown;
+            this.back_button.Font = new System.Drawing.Font("Fredoka One", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.back_button.Location = new System.Drawing.Point(525, 295);
-            this.back_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.back_button.Margin = new System.Windows.Forms.Padding(4);
             this.back_button.Name = "back_button";
             this.back_button.Size = new System.Drawing.Size(174, 37);
             this.back_button.TabIndex = 56;
@@ -125,10 +126,11 @@
             // 
             // addstaff_button
             // 
-            this.addstaff_button.BackColor = System.Drawing.SystemColors.MenuText;
+            this.addstaff_button.BackColor = System.Drawing.Color.Black;
+            this.addstaff_button.Font = new System.Drawing.Font("Fredoka One", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addstaff_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.addstaff_button.Location = new System.Drawing.Point(206, 296);
-            this.addstaff_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addstaff_button.Margin = new System.Windows.Forms.Padding(4);
             this.addstaff_button.Name = "addstaff_button";
             this.addstaff_button.Size = new System.Drawing.Size(160, 36);
             this.addstaff_button.TabIndex = 55;
@@ -139,7 +141,7 @@
             // txt_pass
             // 
             this.txt_pass.Location = new System.Drawing.Point(391, 117);
-            this.txt_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_pass.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.Size = new System.Drawing.Size(227, 22);
             this.txt_pass.TabIndex = 54;
@@ -147,9 +149,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.DimGray;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(292, 121);
+            this.label6.Location = new System.Drawing.Point(287, 120);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(69, 17);
@@ -164,7 +166,7 @@
             "Manager",
             "Staff"});
             this.level_combo.Location = new System.Drawing.Point(391, 182);
-            this.level_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.level_combo.Margin = new System.Windows.Forms.Padding(4);
             this.level_combo.Name = "level_combo";
             this.level_combo.Size = new System.Drawing.Size(160, 24);
             this.level_combo.TabIndex = 51;
@@ -176,7 +178,7 @@
             "Male",
             "Female"});
             this.gen_combo1.Location = new System.Drawing.Point(391, 149);
-            this.gen_combo1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gen_combo1.Margin = new System.Windows.Forms.Padding(4);
             this.gen_combo1.Name = "gen_combo1";
             this.gen_combo1.Size = new System.Drawing.Size(160, 24);
             this.gen_combo1.TabIndex = 50;
@@ -184,7 +186,7 @@
             // txt_StaffName1
             // 
             this.txt_StaffName1.Location = new System.Drawing.Point(391, 82);
-            this.txt_StaffName1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffName1.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffName1.Name = "txt_StaffName1";
             this.txt_StaffName1.Size = new System.Drawing.Size(227, 22);
             this.txt_StaffName1.TabIndex = 49;
@@ -192,7 +194,7 @@
             // txt_StaffID1
             // 
             this.txt_StaffID1.Location = new System.Drawing.Point(391, 50);
-            this.txt_StaffID1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffID1.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffID1.Name = "txt_StaffID1";
             this.txt_StaffID1.Size = new System.Drawing.Size(185, 22);
             this.txt_StaffID1.TabIndex = 48;
@@ -200,9 +202,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.DimGray;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(289, 186);
+            this.label7.Location = new System.Drawing.Point(287, 185);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(71, 17);
@@ -212,9 +214,9 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.DimGray;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(292, 153);
+            this.label8.Location = new System.Drawing.Point(287, 152);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 17);
@@ -224,9 +226,9 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.DimGray;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(292, 86);
+            this.label9.Location = new System.Drawing.Point(287, 82);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(74, 17);
@@ -236,9 +238,9 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.DimGray;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(292, 57);
+            this.label11.Location = new System.Drawing.Point(287, 53);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(50, 17);
@@ -250,7 +252,7 @@
             this.delete_button.BackColor = System.Drawing.Color.SaddleBrown;
             this.delete_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.delete_button.Location = new System.Drawing.Point(569, 436);
-            this.delete_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.delete_button.Margin = new System.Windows.Forms.Padding(4);
             this.delete_button.Name = "delete_button";
             this.delete_button.Size = new System.Drawing.Size(179, 38);
             this.delete_button.TabIndex = 33;
@@ -260,10 +262,10 @@
             // 
             // add_button
             // 
-            this.add_button.BackColor = System.Drawing.Color.Black;
+            this.add_button.BackColor = System.Drawing.Color.Maroon;
             this.add_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.add_button.Location = new System.Drawing.Point(380, 436);
-            this.add_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.add_button.Margin = new System.Windows.Forms.Padding(4);
             this.add_button.Name = "add_button";
             this.add_button.Size = new System.Drawing.Size(181, 38);
             this.add_button.TabIndex = 31;
@@ -276,7 +278,7 @@
             this.update_button.BackColor = System.Drawing.Color.Black;
             this.update_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.update_button.Location = new System.Drawing.Point(191, 436);
-            this.update_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.update_button.Margin = new System.Windows.Forms.Padding(4);
             this.update_button.Name = "update_button";
             this.update_button.Size = new System.Drawing.Size(181, 38);
             this.update_button.TabIndex = 27;
@@ -292,7 +294,7 @@
             "Manager",
             "Staff"});
             this.stafflevel_combo.Location = new System.Drawing.Point(423, 224);
-            this.stafflevel_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.stafflevel_combo.Margin = new System.Windows.Forms.Padding(4);
             this.stafflevel_combo.Name = "stafflevel_combo";
             this.stafflevel_combo.Size = new System.Drawing.Size(160, 24);
             this.stafflevel_combo.TabIndex = 25;
@@ -304,7 +306,7 @@
             "Male",
             "Female"});
             this.gender_combo.Location = new System.Drawing.Point(423, 165);
-            this.gender_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gender_combo.Margin = new System.Windows.Forms.Padding(4);
             this.gender_combo.Name = "gender_combo";
             this.gender_combo.Size = new System.Drawing.Size(160, 24);
             this.gender_combo.TabIndex = 24;
@@ -312,7 +314,7 @@
             // txt_StaffName
             // 
             this.txt_StaffName.Location = new System.Drawing.Point(423, 111);
-            this.txt_StaffName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffName.Name = "txt_StaffName";
             this.txt_StaffName.Size = new System.Drawing.Size(227, 22);
             this.txt_StaffName.TabIndex = 23;
@@ -320,7 +322,7 @@
             // txt_StaffID
             // 
             this.txt_StaffID.Location = new System.Drawing.Point(423, 59);
-            this.txt_StaffID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffID.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffID.Name = "txt_StaffID";
             this.txt_StaffID.Size = new System.Drawing.Size(185, 22);
             this.txt_StaffID.TabIndex = 22;
@@ -329,7 +331,7 @@
             // txt_StaffCode
             // 
             this.txt_StaffCode.Location = new System.Drawing.Point(423, 276);
-            this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffCode.Name = "txt_StaffCode";
             this.txt_StaffCode.Size = new System.Drawing.Size(149, 22);
             this.txt_StaffCode.TabIndex = 26;
@@ -337,7 +339,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.DimGray;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(329, 228);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -349,7 +351,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.DimGray;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(329, 167);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -361,7 +363,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DimGray;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(329, 113);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -373,7 +375,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DimGray;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(329, 279);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -385,7 +387,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DimGray;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(329, 59);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -402,9 +404,10 @@
             this.BackgroundImage = global::CoffeeShop.Properties.Resources.Cappuccino_dooddot_1;
             this.ClientSize = new System.Drawing.Size(928, 532);
             this.Controls.Add(this.main_panel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Management_admin";
             this.Text = "Management(Administrator)";
+            this.Load += new System.EventHandler(this.Management_admin_Load);
             this.main_panel.ResumeLayout(false);
             this.main_panel.PerformLayout();
             this.add_panel.ResumeLayout(false);

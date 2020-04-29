@@ -50,19 +50,21 @@
             this.page1.Controls.Add(this.show);
             this.page1.Controls.Add(this.date2);
             this.page1.Controls.Add(this.dataGridView1);
-            this.page1.Location = new System.Drawing.Point(8, 21);
+            this.page1.Location = new System.Drawing.Point(8, 29);
             this.page1.Name = "page1";
-            this.page1.Size = new System.Drawing.Size(766, 420);
+            this.page1.Size = new System.Drawing.Size(819, 412);
             this.page1.TabIndex = 6;
             // 
             // shw_all
             // 
+            this.shw_all.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.shw_all.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.shw_all.Location = new System.Drawing.Point(411, 48);
             this.shw_all.Name = "shw_all";
             this.shw_all.Size = new System.Drawing.Size(75, 23);
             this.shw_all.TabIndex = 5;
             this.shw_all.Text = "show all";
-            this.shw_all.UseVisualStyleBackColor = true;
+            this.shw_all.UseVisualStyleBackColor = false;
             this.shw_all.Click += new System.EventHandler(this.shw_all_Click);
             // 
             // balanceTxt
@@ -76,12 +78,14 @@
             // 
             // show
             // 
+            this.show.BackColor = System.Drawing.Color.Sienna;
+            this.show.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.show.Location = new System.Drawing.Point(273, 48);
             this.show.Name = "show";
             this.show.Size = new System.Drawing.Size(75, 23);
             this.show.TabIndex = 3;
             this.show.Text = "show";
-            this.show.UseVisualStyleBackColor = true;
+            this.show.UseVisualStyleBackColor = false;
             this.show.Click += new System.EventHandler(this.show_Click);
             // 
             // date2
@@ -117,12 +121,14 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Brown;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(324, 416);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView2
@@ -142,6 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(839, 515);
             this.Controls.Add(this.page1);
             this.Controls.Add(this.page2);
