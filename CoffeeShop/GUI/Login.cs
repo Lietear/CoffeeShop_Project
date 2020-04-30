@@ -95,7 +95,7 @@ namespace CoffeeShop.GUI
                     main_Admin.Show();
                 }
                 
-                else if(Level == "Maneger")//เข้าหน้า main_menu สำหรับ Maneger (ยังไม่สร้าง)
+                else if(Level == "Manager")//เข้าหน้า main_menu สำหรับ Manager (ยังไม่สร้าง)
                 {
                     main_manager main_Manager = new main_manager(ID,Code, Name, Gen, Level);
                     main_Manager.Show();
