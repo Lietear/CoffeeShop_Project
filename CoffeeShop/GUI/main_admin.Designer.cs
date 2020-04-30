@@ -110,7 +110,7 @@
             this.management_button.BackColor = System.Drawing.Color.Maroon;
             this.management_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.management_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.management_button.Location = new System.Drawing.Point(443, 162);
+            this.management_button.Location = new System.Drawing.Point(455, 162);
             this.management_button.Margin = new System.Windows.Forms.Padding(4);
             this.management_button.Name = "management_button";
             this.management_button.Size = new System.Drawing.Size(245, 62);
@@ -138,7 +138,7 @@
             this.addproduct_button.BackColor = System.Drawing.Color.Black;
             this.addproduct_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addproduct_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.addproduct_button.Location = new System.Drawing.Point(443, 309);
+            this.addproduct_button.Location = new System.Drawing.Point(455, 307);
             this.addproduct_button.Margin = new System.Windows.Forms.Padding(4);
             this.addproduct_button.Name = "addproduct_button";
             this.addproduct_button.Size = new System.Drawing.Size(245, 65);
@@ -149,10 +149,10 @@
             // 
             // history_button
             // 
-            this.history_button.BackColor = System.Drawing.Color.Sienna;
+            this.history_button.BackColor = System.Drawing.Color.Maroon;
             this.history_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.history_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.history_button.Location = new System.Drawing.Point(249, 447);
+            this.history_button.Location = new System.Drawing.Point(268, 466);
             this.history_button.Margin = new System.Windows.Forms.Padding(4);
             this.history_button.Name = "history_button";
             this.history_button.Size = new System.Drawing.Size(245, 70);
@@ -165,9 +165,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_2565441_19202;
+            this.BackgroundImage = global::CoffeeShop.Properties.Resources._222;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(805, 632);
+            this.ClientSize = new System.Drawing.Size(804, 705);
             this.Controls.Add(this.history_button);
             this.Controls.Add(this.addproduct_button);
             this.Controls.Add(this.reg_button);

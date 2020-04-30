@@ -110,7 +110,7 @@
             this.managment_button.BackColor = System.Drawing.Color.Maroon;
             this.managment_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.managment_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.managment_button.Location = new System.Drawing.Point(393, 182);
+            this.managment_button.Location = new System.Drawing.Point(480, 182);
             this.managment_button.Margin = new System.Windows.Forms.Padding(4);
             this.managment_button.Name = "managment_button";
             this.managment_button.Size = new System.Drawing.Size(255, 65);
@@ -135,10 +135,10 @@
             // 
             // history_button
             // 
-            this.history_button.BackColor = System.Drawing.Color.SaddleBrown;
+            this.history_button.BackColor = System.Drawing.Color.Maroon;
             this.history_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.history_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.history_button.Location = new System.Drawing.Point(205, 405);
+            this.history_button.Location = new System.Drawing.Point(271, 415);
             this.history_button.Margin = new System.Windows.Forms.Padding(4);
             this.history_button.Name = "history_button";
             this.history_button.Size = new System.Drawing.Size(272, 70);
@@ -152,7 +152,7 @@
             this.addproduct_button.BackColor = System.Drawing.SystemColors.Desktop;
             this.addproduct_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addproduct_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.addproduct_button.Location = new System.Drawing.Point(393, 283);
+            this.addproduct_button.Location = new System.Drawing.Point(480, 283);
             this.addproduct_button.Margin = new System.Windows.Forms.Padding(4);
             this.addproduct_button.Name = "addproduct_button";
             this.addproduct_button.Size = new System.Drawing.Size(255, 69);

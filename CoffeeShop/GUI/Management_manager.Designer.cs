@@ -46,11 +46,11 @@
             // 
             // delete_button
             // 
-            this.delete_button.BackColor = System.Drawing.Color.SaddleBrown;
+            this.delete_button.BackColor = System.Drawing.Color.Maroon;
             this.delete_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.delete_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.delete_button.Location = new System.Drawing.Point(568, 412);
-            this.delete_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.delete_button.Margin = new System.Windows.Forms.Padding(4);
             this.delete_button.Name = "delete_button";
             this.delete_button.Size = new System.Drawing.Size(179, 38);
             this.delete_button.TabIndex = 26;
@@ -64,7 +64,7 @@
             this.update_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.update_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.update_button.Location = new System.Drawing.Point(193, 412);
-            this.update_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.update_button.Margin = new System.Windows.Forms.Padding(4);
             this.update_button.Name = "update_button";
             this.update_button.Size = new System.Drawing.Size(181, 38);
             this.update_button.TabIndex = 25;
@@ -78,7 +78,7 @@
             this.stafflevel_combo.Items.AddRange(new object[] {
             "Staff"});
             this.stafflevel_combo.Location = new System.Drawing.Point(449, 257);
-            this.stafflevel_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.stafflevel_combo.Margin = new System.Windows.Forms.Padding(4);
             this.stafflevel_combo.Name = "stafflevel_combo";
             this.stafflevel_combo.Size = new System.Drawing.Size(160, 24);
             this.stafflevel_combo.TabIndex = 23;
@@ -90,7 +90,7 @@
             "Male",
             "Female"});
             this.gender_combo.Location = new System.Drawing.Point(449, 198);
-            this.gender_combo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gender_combo.Margin = new System.Windows.Forms.Padding(4);
             this.gender_combo.Name = "gender_combo";
             this.gender_combo.Size = new System.Drawing.Size(160, 24);
             this.gender_combo.TabIndex = 22;
@@ -98,7 +98,7 @@
             // txt_StaffName
             // 
             this.txt_StaffName.Location = new System.Drawing.Point(449, 101);
-            this.txt_StaffName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffName.Name = "txt_StaffName";
             this.txt_StaffName.Size = new System.Drawing.Size(227, 22);
             this.txt_StaffName.TabIndex = 21;
@@ -106,7 +106,7 @@
             // txt_StaffID
             // 
             this.txt_StaffID.Location = new System.Drawing.Point(449, 48);
-            this.txt_StaffID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffID.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffID.Name = "txt_StaffID";
             this.txt_StaffID.Size = new System.Drawing.Size(185, 22);
             this.txt_StaffID.TabIndex = 20;
@@ -114,7 +114,7 @@
             // txt_StaffCode
             // 
             this.txt_StaffCode.Location = new System.Drawing.Point(449, 320);
-            this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_StaffCode.Margin = new System.Windows.Forms.Padding(4);
             this.txt_StaffCode.Name = "txt_StaffCode";
             this.txt_StaffCode.Size = new System.Drawing.Size(149, 22);
             this.txt_StaffCode.TabIndex = 24;
@@ -194,7 +194,7 @@
             // txt_pass
             // 
             this.txt_pass.Location = new System.Drawing.Point(449, 148);
-            this.txt_pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_pass.Margin = new System.Windows.Forms.Padding(4);
             this.txt_pass.Name = "txt_pass";
             this.txt_pass.Size = new System.Drawing.Size(227, 22);
             this.txt_pass.TabIndex = 28;
@@ -221,7 +221,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Management_manager";
             this.Load += new System.EventHandler(this.Management_manager_Load);
             this.ResumeLayout(false);

@@ -94,7 +94,7 @@
             this.order_button.BackColor = System.Drawing.Color.Black;
             this.order_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.order_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.order_button.Location = new System.Drawing.Point(749, 245);
+            this.order_button.Location = new System.Drawing.Point(773, 242);
             this.order_button.Margin = new System.Windows.Forms.Padding(4);
             this.order_button.Name = "order_button";
             this.order_button.Size = new System.Drawing.Size(251, 86);
@@ -108,7 +108,7 @@
             this.history_button.BackColor = System.Drawing.Color.Maroon;
             this.history_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.history_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.history_button.Location = new System.Drawing.Point(749, 405);
+            this.history_button.Location = new System.Drawing.Point(773, 408);
             this.history_button.Margin = new System.Windows.Forms.Padding(4);
             this.history_button.Name = "history_button";
             this.history_button.Size = new System.Drawing.Size(251, 78);
@@ -119,10 +119,10 @@
             // 
             // reg_button
             // 
-            this.reg_button.BackColor = System.Drawing.Color.Sienna;
+            this.reg_button.BackColor = System.Drawing.Color.Maroon;
             this.reg_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reg_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.reg_button.Location = new System.Drawing.Point(749, 90);
+            this.reg_button.Location = new System.Drawing.Point(773, 78);
             this.reg_button.Margin = new System.Windows.Forms.Padding(4);
             this.reg_button.Name = "reg_button";
             this.reg_button.Size = new System.Drawing.Size(251, 81);
@@ -135,8 +135,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::CoffeeShop.Properties.Resources.drinking_2293892_19201;
-            this.ClientSize = new System.Drawing.Size(1060, 651);
+            this.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_2354892_1920__2__2;
+            this.ClientSize = new System.Drawing.Size(1155, 637);
             this.Controls.Add(this.history_button);
             this.Controls.Add(this.reg_button);
             this.Controls.Add(this.order_button);

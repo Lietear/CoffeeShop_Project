@@ -336,5 +336,26 @@
   <ItemGroup>
     <None Include="Resources\coffee-2565441_19202.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-5016043_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\222.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2561636_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\อ่า.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night-2467970_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55555555.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
