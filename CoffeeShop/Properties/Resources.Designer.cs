@@ -203,6 +203,16 @@ namespace CoffeeShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap B6FtNKtgSqRqbnNsUzH6Z3tvb4rr0JtbPFm9X3u2epXJDyoPbc4WVErQJRHNG3x8Uidn52 {
+            get {
+                object obj = ResourceManager.GetObject("B6FtNKtgSqRqbnNsUzH6Z3tvb4rr0JtbPFm9X3u2epXJDyoPbc4WVErQJRHNG3x8Uidn52", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cappuccino_dooddot_1 {
             get {
                 object obj = ResourceManager.GetObject("Cappuccino-dooddot-1", resourceCulture);
@@ -246,6 +256,16 @@ namespace CoffeeShop.Properties {
         internal static System.Drawing.Bitmap coffee_2354892_1920__2_ {
             get {
                 object obj = ResourceManager.GetObject("coffee-2354892_1920 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coffee_2354892_1920__2__2 {
+            get {
+                object obj = ResourceManager.GetObject("coffee-2354892_1920 (2)-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +343,36 @@ namespace CoffeeShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coffee_2565441_1920 {
+            get {
+                object obj = ResourceManager.GetObject("coffee-2565441_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coffee_2565441_19201 {
+            get {
+                object obj = ResourceManager.GetObject("coffee-2565441_19201", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coffee_2565441_19202 {
+            get {
+                object obj = ResourceManager.GetObject("coffee-2565441_19202", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coffee_4512564_1920 {
             get {
                 object obj = ResourceManager.GetObject("coffee-4512564_1920", resourceCulture);
@@ -353,6 +403,26 @@ namespace CoffeeShop.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coffee_66850_1280 {
+            get {
+                object obj = ResourceManager.GetObject("coffee-66850_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coffee_66850_12801 {
+            get {
+                object obj = ResourceManager.GetObject("coffee-66850_12801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coffee_shop_logo_design_template_0c96db5bfc49a90c73bb5c16605d0a01_screen {
             get {
                 object obj = ResourceManager.GetObject("coffee-shop-logo-design-template-0c96db5bfc49a90c73bb5c16605d0a01_screen", resourceCulture);
@@ -366,6 +436,26 @@ namespace CoffeeShop.Properties {
         internal static System.Drawing.Bitmap coffee_ลดน้ำหนักด้วยการดื่มกาแฟ5cx {
             get {
                 object obj = ResourceManager.GetObject("coffee-ลดน้ำหนักด้วยการดื่มกาแฟ5cx", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drinking_2293892_1920 {
+            get {
+                object obj = ResourceManager.GetObject("drinking-2293892_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap drinking_2293892_19201 {
+            get {
+                object obj = ResourceManager.GetObject("drinking-2293892_19201", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -436,6 +526,16 @@ namespace CoffeeShop.Properties {
         internal static System.Drawing.Bitmap shutterstock_569107945__3_ {
             get {
                 object obj = ResourceManager.GetObject("shutterstock_569107945 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutterstock_569107945__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("shutterstock_569107945 (3)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

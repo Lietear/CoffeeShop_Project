@@ -176,8 +176,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_4512564_19201;
-            this.ClientSize = new System.Drawing.Size(635, 401);
+            this.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_66850_12801;
+            this.ClientSize = new System.Drawing.Size(693, 401);
             this.Controls.Add(this.close_button);
             this.Controls.Add(this.reg_button);
             this.Controls.Add(this.type_combo);
