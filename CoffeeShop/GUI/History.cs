@@ -27,7 +27,7 @@ namespace CoffeeShop.GUI
             page1.Hide();
             page2.Show();
             dataGridView2.DataSource = null;
-            MySqlDataAdapter sqlddb = new MySqlDataAdapter("Select * From sale_details Where SaleID =" + saleID, conn);
+            MySqlDataAdapter sqlddb = new MySqlDataAdapter("Select ProductName,sd.Price,Quantity,Amount From sale_details sd,products p Where SaleID ='" + saleID + "'AND sd.ProductID = p.ProductID", conn);
             DataTable tbdb = new DataTable();
             sqlddb.Fill(tbdb);
             dataGridView2.DataSource = tbdb;
@@ -37,7 +37,7 @@ namespace CoffeeShop.GUI
         {
             dataGridView1.DataSource = null;
             string dateserch = this.date2.Value.ToString("d/M/yyyy");
-            MySqlDataAdapter sqlddb = new MySqlDataAdapter("Select SaleID,CustomerID,StaffID,GrandTotal From sales WHERE SaleDateTime like '" + dateserch + "%'", conn);
+            MySqlDataAdapter sqlddb = new MySqlDataAdapter("Select SaleID,CustomerName,StaffName,GrandTotal From sales  s,customers c,staffs st WHERE SaleDateTime like '" + dateserch + "%' AND s.StaffID = st.StaffID AND c.CustomerID = s.CustomerID", conn);
             DataTable tbdb = new DataTable();
             sqlddb.Fill(tbdb);
             dataGridView1.DataSource = tbdb;
@@ -52,7 +52,7 @@ namespace CoffeeShop.GUI
         private void shw_all_Click(object sender, EventArgs e)
         {
             dataGridView1.DataSource = null;
-            MySqlDataAdapter sqlddb = new MySqlDataAdapter("Select * From sales Order By SaleDateTime", conn);
+            MySqlDataAdapter sqlddb = new MySqlDataAdapter("Select SaleID,SaleDateTime,CustomerName,StaffName,GrandTotal  From sales  s,customers c,staffs st WHERE s.StaffID = st.StaffID AND c.CustomerID = s.CustomerID Order By SaleDateTime", conn);
             DataTable tbdb = new DataTable();
             sqlddb.Fill(tbdb);
             dataGridView1.DataSource = tbdb;
