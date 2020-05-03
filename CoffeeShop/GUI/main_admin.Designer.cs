@@ -38,6 +38,7 @@
             this.addproduct_button = new System.Windows.Forms.Button();
             this.history_button = new System.Windows.Forms.Button();
             this.rate_button = new System.Windows.Forms.Button();
+            this.info_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // getID
@@ -166,6 +167,19 @@
             this.rate_button.UseVisualStyleBackColor = false;
             this.rate_button.Click += new System.EventHandler(this.rate_button_Click);
             // 
+            // info_button
+            // 
+            this.info_button.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.info_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.info_button.Location = new System.Drawing.Point(187, 475);
+            this.info_button.Name = "info_button";
+            this.info_button.Size = new System.Drawing.Size(184, 51);
+            this.info_button.TabIndex = 14;
+            this.info_button.Text = "Member Information";
+            this.info_button.UseVisualStyleBackColor = false;
+            this.info_button.Click += new System.EventHandler(this.info_button_Click);
+            // 
             // main_admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +187,7 @@
             this.BackgroundImage = global::CoffeeShop.Properties.Resources._222;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(603, 573);
+            this.Controls.Add(this.info_button);
             this.Controls.Add(this.rate_button);
             this.Controls.Add(this.history_button);
             this.Controls.Add(this.addproduct_button);
@@ -202,5 +217,6 @@
         private System.Windows.Forms.Button addproduct_button;
         private System.Windows.Forms.Button history_button;
         private System.Windows.Forms.Button rate_button;
+        private System.Windows.Forms.Button info_button;
     }
 }

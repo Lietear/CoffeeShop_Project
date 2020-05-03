@@ -91,5 +91,11 @@ namespace CoffeeShop.GUI
             rate rate = new rate();
             rate.Show();
         }
+
+        private void info_button_Click(object sender, EventArgs e)
+        {
+            customer customer = new customer();
+            customer.Show();
+        }
     }
 }

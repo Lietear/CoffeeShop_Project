@@ -37,6 +37,7 @@
             this.reg_button = new System.Windows.Forms.Button();
             this.history_button = new System.Windows.Forms.Button();
             this.addproduct_button = new System.Windows.Forms.Button();
+            this.info_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // getID
@@ -131,9 +132,9 @@
             this.history_button.BackColor = System.Drawing.Color.Maroon;
             this.history_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.history_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.history_button.Location = new System.Drawing.Point(203, 337);
+            this.history_button.Location = new System.Drawing.Point(38, 315);
             this.history_button.Name = "history_button";
-            this.history_button.Size = new System.Drawing.Size(204, 57);
+            this.history_button.Size = new System.Drawing.Size(185, 57);
             this.history_button.TabIndex = 13;
             this.history_button.Text = "History";
             this.history_button.UseVisualStyleBackColor = false;
@@ -151,12 +152,26 @@
             this.addproduct_button.Text = "Add Product";
             this.addproduct_button.UseVisualStyleBackColor = false;
             // 
+            // info_button
+            // 
+            this.info_button.BackColor = System.Drawing.Color.DarkRed;
+            this.info_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.info_button.Location = new System.Drawing.Point(360, 321);
+            this.info_button.Name = "info_button";
+            this.info_button.Size = new System.Drawing.Size(191, 51);
+            this.info_button.TabIndex = 15;
+            this.info_button.Text = "Member Information";
+            this.info_button.UseVisualStyleBackColor = false;
+            this.info_button.Click += new System.EventHandler(this.info_button_Click);
+            // 
             // main_manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CoffeeShop.Properties.Resources.B6FtNKtgSqRqbnNsUzH6Z3tvb4rr0JtbPFm9X3u2epXJDyoPbc4WVErQJRHNG3x8Uidn52;
             this.ClientSize = new System.Drawing.Size(598, 516);
+            this.Controls.Add(this.info_button);
             this.Controls.Add(this.addproduct_button);
             this.Controls.Add(this.history_button);
             this.Controls.Add(this.reg_button);
@@ -184,5 +199,6 @@
         private System.Windows.Forms.Button reg_button;
         private System.Windows.Forms.Button history_button;
         private System.Windows.Forms.Button addproduct_button;
+        private System.Windows.Forms.Button info_button;
     }
 }

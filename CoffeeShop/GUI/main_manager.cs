@@ -81,5 +81,11 @@ namespace CoffeeShop.GUI
             History history = new History();
             history.Show();
         }
+
+        private void info_button_Click(object sender, EventArgs e)
+        {
+            customer customer = new customer();
+            customer.Show();
+        }
     }
 }

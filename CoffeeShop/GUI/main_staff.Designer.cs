@@ -35,6 +35,7 @@
             this.order_button = new System.Windows.Forms.Button();
             this.history_button = new System.Windows.Forms.Button();
             this.reg_button = new System.Windows.Forms.Button();
+            this.info_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -43,10 +44,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(49, 23);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(37, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 20);
+            this.label1.Size = new System.Drawing.Size(49, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
             // 
@@ -56,10 +56,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(63, 90);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(47, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 20);
+            this.label2.Size = new System.Drawing.Size(23, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "ID";
             // 
@@ -69,10 +68,9 @@
             this.getName.BackColor = System.Drawing.Color.Transparent;
             this.getName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.getName.Location = new System.Drawing.Point(165, 23);
-            this.getName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.getName.Location = new System.Drawing.Point(124, 19);
             this.getName.Name = "getName";
-            this.getName.Size = new System.Drawing.Size(54, 20);
+            this.getName.Size = new System.Drawing.Size(47, 17);
             this.getName.TabIndex = 2;
             this.getName.Text = "name";
             // 
@@ -82,10 +80,9 @@
             this.getID.BackColor = System.Drawing.Color.Transparent;
             this.getID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.getID.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.getID.Location = new System.Drawing.Point(181, 90);
-            this.getID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.getID.Location = new System.Drawing.Point(136, 73);
             this.getID.Name = "getID";
-            this.getID.Size = new System.Drawing.Size(24, 20);
+            this.getID.Size = new System.Drawing.Size(21, 17);
             this.getID.TabIndex = 3;
             this.getID.Text = "id";
             // 
@@ -94,10 +91,9 @@
             this.order_button.BackColor = System.Drawing.Color.Black;
             this.order_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.order_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.order_button.Location = new System.Drawing.Point(773, 242);
-            this.order_button.Margin = new System.Windows.Forms.Padding(4);
+            this.order_button.Location = new System.Drawing.Point(580, 17);
             this.order_button.Name = "order_button";
-            this.order_button.Size = new System.Drawing.Size(251, 86);
+            this.order_button.Size = new System.Drawing.Size(188, 73);
             this.order_button.TabIndex = 4;
             this.order_button.Text = "Order";
             this.order_button.UseVisualStyleBackColor = false;
@@ -108,10 +104,9 @@
             this.history_button.BackColor = System.Drawing.Color.Maroon;
             this.history_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.history_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.history_button.Location = new System.Drawing.Point(773, 408);
-            this.history_button.Margin = new System.Windows.Forms.Padding(4);
+            this.history_button.Location = new System.Drawing.Point(580, 176);
             this.history_button.Name = "history_button";
-            this.history_button.Size = new System.Drawing.Size(251, 78);
+            this.history_button.Size = new System.Drawing.Size(188, 69);
             this.history_button.TabIndex = 15;
             this.history_button.Text = "History";
             this.history_button.UseVisualStyleBackColor = false;
@@ -122,21 +117,33 @@
             this.reg_button.BackColor = System.Drawing.Color.Maroon;
             this.reg_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reg_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.reg_button.Location = new System.Drawing.Point(773, 78);
-            this.reg_button.Margin = new System.Windows.Forms.Padding(4);
+            this.reg_button.Location = new System.Drawing.Point(276, 19);
             this.reg_button.Name = "reg_button";
-            this.reg_button.Size = new System.Drawing.Size(251, 81);
+            this.reg_button.Size = new System.Drawing.Size(188, 71);
             this.reg_button.TabIndex = 14;
             this.reg_button.Text = "Register Member";
             this.reg_button.UseVisualStyleBackColor = false;
             this.reg_button.Click += new System.EventHandler(this.reg_button_Click);
             // 
+            // info_button
+            // 
+            this.info_button.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.info_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.info_button.Location = new System.Drawing.Point(276, 176);
+            this.info_button.Name = "info_button";
+            this.info_button.Size = new System.Drawing.Size(188, 69);
+            this.info_button.TabIndex = 16;
+            this.info_button.Text = "Member Information";
+            this.info_button.UseVisualStyleBackColor = false;
+            // 
             // main_staff
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CoffeeShop.Properties.Resources.coffee_2354892_1920__2__2;
-            this.ClientSize = new System.Drawing.Size(1155, 637);
+            this.ClientSize = new System.Drawing.Size(802, 335);
+            this.Controls.Add(this.info_button);
             this.Controls.Add(this.history_button);
             this.Controls.Add(this.reg_button);
             this.Controls.Add(this.order_button);
@@ -144,7 +151,6 @@
             this.Controls.Add(this.getName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "main_staff";
             this.Text = "main_staff";
             this.ResumeLayout(false);
@@ -161,5 +167,6 @@
         private System.Windows.Forms.Button order_button;
         private System.Windows.Forms.Button history_button;
         private System.Windows.Forms.Button reg_button;
+        private System.Windows.Forms.Button info_button;
     }
 }
