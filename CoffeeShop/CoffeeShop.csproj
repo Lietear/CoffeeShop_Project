@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\History.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\History.resx">
       <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
