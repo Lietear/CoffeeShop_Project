@@ -101,6 +101,12 @@
     <Compile Include="GUI\ProductMenu.Designer.cs">
       <DependentUpon>ProductMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\rate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\rate.Designer.cs">
+      <DependentUpon>rate.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\register_customer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ProductMenu.resx">
       <DependentUpon>ProductMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\rate.resx">
+      <DependentUpon>rate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\register_customer.resx">
       <DependentUpon>register_customer.cs</DependentUpon>

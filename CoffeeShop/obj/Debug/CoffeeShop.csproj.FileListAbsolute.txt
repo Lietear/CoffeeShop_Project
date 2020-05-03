@@ -115,3 +115,4 @@ C:\Users\ACER\source\repos\Lietear\Lietear\Lietear\CoffeeShop_Project\CoffeeShop
 C:\Users\ACER\source\repos\Lietear\Lietear\Lietear\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.csproj.CopyComplete
 C:\Users\ACER\source\repos\Lietear\Lietear\Lietear\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.exe
 C:\Users\ACER\source\repos\Lietear\Lietear\Lietear\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.pdb
+C:\Users\NITRO 5\source\repos\CoffeeShop_Project\CoffeeShop\obj\Debug\CoffeeShop.GUI.rate.resources

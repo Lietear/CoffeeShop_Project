@@ -16,6 +16,7 @@ namespace CoffeeShop.GUI
         private string conDB = "server = localhost; user id = root; password = 1234567890; persistsecurityinfo=True;database=coffee;allowuservariables=True";
         string ID;
         string memberid;
+        int ratepoint = 1;
         public Order(string ID,string Code, string Name, string Gen, string Level)
         {
             InitializeComponent();
@@ -23,6 +24,8 @@ namespace CoffeeShop.GUI
             this.CodeID.Text = Code;
             Fillcombo();
             this.ID = ID;
+            Getallproduct();
+            Getrate();
         }
         public Order()
         {
@@ -171,7 +174,7 @@ namespace CoffeeShop.GUI
             }
             else
             {
-                int point = (Convert.ToInt16(txt_getpoint.Text) + (Convert.ToInt16(txt_sub.Text) / 10));
+                int point = (Convert.ToInt16(txt_getpoint.Text) + (Convert.ToInt16(txt_sub.Text) / ratepoint));
                 string Query2 = "UPDATE Customers SET Points = '" + point + "'";
                 command = new MySqlCommand(Query2, connection);
                 command.ExecuteNonQuery();
@@ -196,7 +199,7 @@ namespace CoffeeShop.GUI
         {
             if(txt_point.Text.Length > 0)
             {
-                txt_net.Text = (Convert.ToInt16(txt_sub.Text) - (Convert.ToInt16(txt_point.Text)/10)).ToString();
+                txt_net.Text = (Convert.ToInt16(txt_sub.Text) - (Convert.ToInt16(txt_point.Text)/ ratepoint)).ToString();
             }
         }
 
@@ -244,5 +247,49 @@ namespace CoffeeShop.GUI
         {
 
         }
+        private void Getallproduct()
+        {
+            using (MySqlConnection sqlCon = new MySqlConnection(conDB))
+            {
+                sqlCon.Open();
+                MySqlDataAdapter sqlDa = new MySqlDataAdapter("Select ProductName,Price From Products", sqlCon);
+                DataTable dtbl = new DataTable();
+                sqlDa.Fill(dtbl);
+                dataGridView1.DataSource = dtbl;
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string pdname = this.dataGridView1.Rows[e.RowIndex].Cells["ProductName"].Value.ToString();
+            menulist.Text = pdname;
+        }
+
+        private void Getrate()
+        {
+            MySqlConnection connection = new MySqlConnection(conDB);
+            connection.ConnectionString = conDB;
+            String query = "SELECT * FROM DiscountRate Where ID = (SELECT MAX(ID) FROM DiscountRate)";
+            try
+            {
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    string disrate = rdr.GetString("Rate");
+                    this.ratepoint = Convert.ToInt32(disrate);
+
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
     }
 }

@@ -85,5 +85,11 @@ namespace CoffeeShop.GUI
             History history = new History();
             history.Show();
         }
+
+        private void rate_button_Click(object sender, EventArgs e)
+        {
+            rate rate = new rate();
+            rate.Show();
+        }
     }
 }
